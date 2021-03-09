@@ -1,7 +1,6 @@
 from airflow.models.dag import DAG
 from airflow.utils.task_group import TaskGroup
 from datetime import timedelta
-from plugins.inventory_plug.inventory_operator import InventoryHttpOperator
 from plugins.core_plug.core_operator import CoreHttpOperator
 
 
